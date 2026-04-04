@@ -54,26 +54,8 @@ screenshots/main.png)
 - CardView
 
 ## 📁 Project Structure
-SmartContacts/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com/example/smartcontacts/
-│   │   │   │       ├── activities/
-│   │   │   │       ├── adapter/
-│   │   │   │       ├── database/
-│   │   │   │       ├── model/
-│   │   │   │       └── AppExecutor.java
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   ├── values/
-│   │   │   │   └── menu/
-│   │   │   └── AndroidManifest.xml
-│   └── build.gradle
-├── build.gradle
-├── settings.gradle
-└── README.md
+<img width="321" height="397" alt="image" src="https://github.com/user-attachments/assets/bc40d81a-7f4d-4ced-be65-7d3ba74a1047" />
+
 
 ## 🚀 Key Implementation Highlights
 
