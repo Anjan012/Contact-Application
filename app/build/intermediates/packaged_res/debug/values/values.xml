@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="avatar_bg_1">#1565C0</color>
+    <color name="avatar_bg_2">#6A1B9A</color>
+    <color name="avatar_bg_3">#00695C</color>
+    <color name="avatar_bg_4">#AD1457</color>
+    <color name="avatar_bg_5">#E65100</color>
+    <color name="background">#F0F4FF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#B00020</color>
+    <color name="on_primary_container">#001B4D</color>
+    <color name="on_surface">#1A1A2E</color>
+    <color name="primary">#1565C0</color>
+    <color name="primary_container">#D6E4FF</color>
+    <color name="primary_dark">#003c8f</color>
+    <color name="primary_light">#5e92f3</color>
+    <color name="ripple_color">#1A1565C0</color>
+    <color name="secondary">#455A64</color>
+    <color name="secondary_container">#CFE8FF</color>
+    <color name="surface">#FAFAFA</color>
+    <color name="surface_variant">#E8EAF6</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="avatar_size">52dp</dimen>
+    <dimen name="avatar_size_large">88dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="input_margin">8dp</dimen>
+    <dimen name="section_spacing">24dp</dimen>
+    <string name="add_contact">Add Contact</string>
+    <string name="app_name">Smart Contacts</string>
+    <string name="call">Call</string>
+    <string name="cancel">Cancel</string>
+    <string name="company">Company</string>
+    <string name="contact_deleted">Contact deleted.</string>
+    <string name="contact_detail">Contact Detail</string>
+    <string name="contact_saved">Contact saved!</string>
+    <string name="contact_updated">Contact updated!</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm_message">Are you sure you want to delete this contact?</string>
+    <string name="delete_confirm_title">Delete Contact</string>
+    <string name="edit">Edit</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="email">Email</string>
+    <string name="email_invalid">Enter a valid email address</string>
+    <string name="error_save">Failed to save contact.</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_required">First name is required</string>
+    <string name="last_name">Last Name</string>
+    <string name="no_contacts">No contacts yet.\nTap + to add one!</string>
+    <string name="no_results">No contacts found.</string>
+    <string name="phone">Phone</string>
+    <string name="phone_invalid">Enter a valid phone number</string>
+    <string name="phone_required">Phone number is required</string>
+    <string name="save">Save</string>
+    <string name="search_hint">Search contacts…</string>
+    <string name="send_email">Email</string>
+    <style name="AvatarTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DetailValueStyle">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EmptyTextStyle">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+    <style name="SectionLabelStyle">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+    <style name="Theme.SmartContacts" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
